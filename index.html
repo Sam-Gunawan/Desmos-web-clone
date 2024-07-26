@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>Desmos Clone Practice</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-left-aligned" id="nav-logo">
+                <img src="./assets/desmos-seeklogo.svg" alt="desmos logo">
+            </div>
+
+            <div class="nav-centered" id="nav-menu">
+                <div class="nav-menu-option nav-math-tools">
+                    <span id="math-tools">
+                        Math Tools
+                        <span class="material-symbols-outlined">arrow_drop_down</span>
+                    </span>
+                    <ul>
+                        <li><a href="#">Grpahing Calculator</a></li>
+                        <li><a href="#">Scientific Calculator</a></li>
+                        <li><a href="#">Four-Function Calculator</a></li>
+                        <li><a href="#">Test Practice</a></li>
+                        <li><a href="#">Matrix Calculator</a></li>
+                        <li><a href="#">Geometry Tool</a></li>
+                        <li><a href="#">3D Calculator</a></li>
+                        <li>Download our apps in the <a href="#">Google Play Store</a> and <a href="#">iOS App Store</a>.</li>
+                    </ul>
+                </div>
+
+                <div class="nav-menu-option nav-classroom">
+                    <span id="classroom">
+                        Classroom
+                        <span class="material-symbols-outlined">arrow_drop_down</span>
+                    </span>
+                    <ul>
+                        <li><a href="#">For Teachers</a></li>
+                        <li><a href="#">For Students</a></li>
+                        <li><a href="#">Desmos Math 6-A1</a></li>
+                        <li>Desmos Classroom is a free teaching and learning platform, <a href="#">now part of Amplify.</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav-menu-option nav-resources">
+                    <span id="resources">
+                        Resources
+                        <span class="material-symbols-outlined">arrow_drop_down</span>
+                    </span>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Accesibility</a></li>
+                        <li><a href="#">Assessments</a></li>
+                        <li><a href="#">Partnerships</a></li>
+                        <li><a href="#">Equity Principles</a></li>
+                        <li><a href="#">Guiding Principles</a></li>
+                        <li><a href="#">Desmos Store</a></li>
+                        <li><a href="#">Des-blog</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="nav-right-aligned">
+                <span id="login">Log In</span>
+                <span class="material-symbols-outlined">public</span>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="page-intro">
+            <img src="./assets/transparent-cartoon-mountain-landscape.png" alt="mountain landscape">
+            <h1>Introducing Desmos 3D (Beta)</h1>
+            <h2>Jump into a new dimension of math. <a href="#">Try it now!</a></h2>
+            <img src="./assets/transparent-cartoon-mountain-landscape.png" alt="mountain landscape">
+        </section>
+
+        <section id="featured-apps">
+            <div class="promo graphing-calc-container">
+                <h1>Let's learn together.</h1>
+                <h2>At Desmos Studio, we want to help everyone learn math, love math, and grow with math.</h2>
+                <a class="graph-calc-btn" href="#">Graphing Calculator</a>
+            </div>
+            <div class="other-promo">
+                <div class="promo explore-geo-container">
+                    <h1>Explore geometry.</h1>
+                    <h2>Try our new geometry tool, now with the power of the graphing calculator built in.</h2>
+                    <a class="geo-btn" href="#">Open Geometry</a>
+                </div>
+
+                <div class="promo global-art-contest-container">
+                    <img src="./assets/winner-flag_orange.png" alt="orange flag with trophy icon" id="orange-trophy-icon">
+                    <h1>Global Art Contest</h1>
+                    <h2>Visit the 2023 Art Contest gallery, featuring 100 incredible graphs from around the world.</h2>
+                    <a class="geo-btn" href="#">Open the gallery</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="desmos-classroom">
+            <h1>Looking for Desmos Classroom?</h1>
+            <h2>Desmos Classroom is a free teaching and learning platform, <a href="#">now part of Amplify.</a></h2>
+            <div class="classroom-container">
+                <div class="teachers">
+                    <h1>Teachers</h1>
+                    <h2>Find interactive and creative lessons for your class, or build your own.</h2>
+                    <a href="#" id="teacher-dash-btn">Teacher Home</a>
+                </div>
+                
+                <div class="students">
+                    <h1>Students</h1>
+                    <h2>Enter a classcode to join your classmates!</h2>
+                    <a href="#" id="student-dash-btn">Student Home</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery global-art-contest">
+            <a href="#" class="gallery-title" id="global-art-contest-title">
+                <span>2023 Global Math Art Contest</span>
+                <span class="material-symbols-outlined">chevron_right</span>
+            </a>
+
+            <div class="gac-showcase">
+                <div class="gac-showcase__item">
+                    <img src="./assets/3d-cat.jpg" alt="3d cat">
+                    <h2>Title of artwork</h2>
+                    <p>Indonesia</p>
+                </div>
+                <div class="gac-showcase__item">
+                    <img src="./assets/3d-duck.jpg" alt="3d duck">
+                    <h2>Title of artwork</h2>
+                    <p>Indonesia</p>
+                </div>
+                <div class="gac-showcase__item">
+                    <img src="./assets/3d-goose-with-friend.jpg" alt="3d goose with other animal">
+                    <h2>Title of artwork</h2>
+                    <p>Indonesia</p>
+                </div>
+                <div class="gac-showcase__item">
+                    <img src="./assets/3d-golden.jpg" alt="3d golden retriever">
+                    <h2>Title of artwork</h2>
+                    <p>Indonesia</p>
+                </div>
+                <div class="gac-showcase__item">
+                    <img src="./assets/3d-owl.jpg" alt="3d owl">
+                    <h2>Title of artwork</h2>
+                    <p>Indonesia</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery partners">
+            <a href="#" class="gallery-title" id="partners-title">
+                <span>Partner with Desmos Studio</span>
+                <span class="material-symbols-outlined">chevron_right</span>
+            </a>
+            <h2>Use our API to embed the power of Desmos's tools right into your products.</h2>
+
+            <div class="partners-logos"> 
+            <!-- 5 by 5 layout on computer screen -->
+                <img src="./assets/CA-RGB.png" alt="cambium assesment logo">
+                <img src="./assets/ib-logo.png" alt="ib logo">
+                <img src="./assets/sbac-logo-color.svg" alt="smarter balanced logo">
+                <img src="./assets/pearson-logo.png" alt="pearson logo">
+                <img src="./assets/nwea-logo-color.svg" alt="nwea logo">
+                <img src="./assets/cambridge-university-press.png" alt="cambridge university press logo">
+                <img src="./assets/college-board-logo.png" alt="college board logo">
+                <img src="./assets/mcgraw-hill-logo.svg" alt="mcgraw hill logo">
+                <img src="./assets/savvas-logo.png" alt="savvas learning company logo">
+                <img src="./assets/drc-logo.png" alt="data recognition corporation logo">
+            </div>
+        </section>
+
+        <section class="gallery 3d-graph-examples">
+            <a href="#" class="gallery-title" id="3d-graph-examples-title">
+                <span>Example 3D Graphs</span>
+                <span class="material-symbols-outlined">chevron_right</span>
+            </a>
+
+            <div class="3d-graph-showcase">
+                <div class="3d-graph-showcase__item">
+                    <img src="./assets/3d-solid-abstract-1.jpg" alt="3d solid abstract shape by Wannathis.one">
+                    <h2>Shape</h2>
+                </div>
+                <div class="3d-graph-showcase__item">
+                    <img src="./assets/3d-solid-abstract-2.jpg" alt="3d solid abstract shape by Wannathis.one">
+                    <h2>Shape</h2>
+                </div>
+                <div class="3d-graph-showcase__item">
+                    <img src="./assets/3d-solid-abstract-3.jpg" alt="3d solid abstract shape by Wannathis.one">
+                    <h2>Shape</h2>
+                </div>
+                <div class="3d-graph-showcase__item">
+                    <img src="./assets/3d-solid-abstract-4.jpg" alt="3d solid abstract shape by Wannathis.one">
+                    <h2>Shape</h2>
+                </div>
+                <div class="3d-graph-showcase__item">
+                    <img src="./assets/3d-solid-abstract-5.jpg" alt="3d solid abstract shape by Wannathis.one">
+                    <h2>Shape</h2>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <section class="main-footer">
+                <img src="./assets/desmos-seeklogo.svg" alt="desmos logo">
+                <div class="footer-menu">
+                    <h2>COMPANY</h2>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Equity Principles</a></li>
+                        <li><a href="#">Guiding Principles</a></li>
+                        <li><a href="#">Des-Blog</a></li>
+                        <li><a href="#">Desmos Store</a></li>
+                    </ul>
+                </div>
+                <div class="footer-menu">
+                    <h2>PROUDCTS</h2>
+                    <ul>
+                        <li><a href="#">Grpahing Calculator</a></li>
+                        <li><a href="#">Scientific Calculator</a></li>
+                        <li><a href="#">Four-Function Calculator</a></li>
+                        <li><a href="#">Test Practice</a></li>
+                        <li><a href="#">Matrix Calculator</a></li>
+                        <li><a href="#">Geometry Tool</a></li>
+                        <li><a href="#">3D Calculator</a></li>
+                    </ul>
+                </div>
+                <div class="footer-menu">
+                    <h2>RESOURCES</h2>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Accesibility</a></li>
+                        <li><a href="#">VPAT®</a></li>
+                        <li><a href="#">Assessments</a></li>
+                        <li><a href="#">Partnerships</a></li>
+                        <li><a href="#">API Docs</a></li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="footer-bar">
+                <div class="contact-us">
+                    Contact Us
+                    <a href="#">feedback@mail.com</a>
+                </div>
+                <div class="legal">
+                    Legal
+                    <span><a href="#">Terms of Service</a> | <a href="#">Privacy Policy</a></span>
+                </div>
+                <div class="copyright">
+                    Copyright © 2024 Samuel T. Gunawan
+                </div>
+            </section>
+        </footer>
+    </div>
+</body>
+</html>
