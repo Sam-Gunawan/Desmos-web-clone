@@ -1,0 +1,104 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgb(86, 86, 86);
+    background-color: rgb(238, 238, 238);
+    margin: 0;
+    padding: 5px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    box-shadow: 0 2px 5px rgb(160, 160, 160);
+    z-index: 1;
+}
+
+nav span:hover, nav span a:hover {
+    color: black;
+}
+
+#nav-logo img {
+    height: 40px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.nav-centered {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-menu-option {
+    padding: 0 10px;
+}
+
+.nav-menu-option .material-symbols-outlined {
+    font-size: 32px;
+    position: relative;
+    left: -5px;
+}
+
+.nav-menu-option span {
+    margin: 0;
+}
+
+.nav-menu-option span, .nav-right-aligned {
+    display: flex;
+    align-items: center;
+}
+
+.nav-right-aligned span {
+    margin: 0 8px;
+}
+
+#login a {
+    color: inherit;
+}
+
+#language-btn {
+    font-size: 16px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    margin: 0;
+}
+
+.nav-menu-option:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content ul {
+    list-style: none;
+    padding: 10px 20px;
+    margin: 0;
+    margin-top: 8px;
+    border: 1px solid rgb(189, 189, 189);
+    max-width: 220px;
+    background-color: white;
+    box-shadow: 0 0 7px 1px rgb(199, 199, 199);
+    border-radius: 5px;
+}
+
+.dropdown-content ul li {
+    padding: 0.4em 0;
+}
+
+.dropdown-content .additional-text {
+    font-size: 14px;
+    line-height: 140%;
+    color: black;
+}
+
+.dropdown-content .additional-text a {
+    text-decoration: underline;
+    color: rgb(47, 114, 220);
+}
+
+.dropdown-content .additional-text a:hover {
+    color: rgb(0, 74, 192)
+}
