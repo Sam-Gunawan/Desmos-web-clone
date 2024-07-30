@@ -1,0 +1,123 @@
+.container>section {
+    margin: 40px 0;
+}
+
+.section-title {
+    text-align: center;
+}
+
+#page-intro {
+    display: flex;
+    flex-direction: row;
+}
+
+#page-intro img {
+    width: 350px;
+    margin: auto;
+}
+
+#page-intro h1 {
+    margin-bottom: 10px;
+}
+
+#page-intro h2 {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+#featured-apps {
+    width: 960px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 63% auto;
+    column-gap: 13px;
+}
+
+.other-promo {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 13px;
+}
+
+.promo {
+    border-radius: 10px;
+    background-color: rgb(155, 203, 246);
+    padding: 5px 30px;
+    position: relative;
+    padding-bottom: 30px;
+    color: white;
+}
+
+.promo-btn {
+    position: absolute;
+    bottom: 30px;
+    /* background-color: blue; */
+    text-decoration: none;
+    color: white !important;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 200ms;
+}
+
+.other-promo .promo {
+    padding: 4px 20px;
+    padding-bottom: 10px;
+    min-height: 183px;
+}
+
+.other-promo .promo-btn {
+    bottom: 16px;
+    background-color: none;
+    border: 1px solid white;
+    opacity: 0.85;
+}
+
+.other-promo .promo-btn:hover {
+    opacity: 1;
+}
+
+.other-promo h1 {
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.other-promo h2 {
+    font-size: 16px;
+    margin-right: 12px;
+}
+
+#graphing-calc-container h1 {
+    font-size: 36px;
+    margin-bottom: 0;
+}
+
+#graphing-calc-container h2 {
+    font-size: 20px;
+    width: 65%;
+}
+
+#graphing-calc-container {
+    background-color: rgb(1, 40, 103);
+}
+
+#graph-calc-btn {
+    background-color: rgb(47, 114, 220);
+    border: 1px solid rgb(67, 128, 224);
+}
+
+#graph-calc-btn:hover {
+    background-color: rgb(35, 88, 172);
+}
+
+#explore-geo-container {
+    background-color: rgb(131, 29, 165);
+}
+
+#global-art-contest-container {
+    background-color: rgb(185, 5, 104);
+}
+
+#orange-trophy-icon {
+    position: absolute;
+    display: none; /* DON'T FORGET TO DELETE! */
+}
