@@ -119,5 +119,7 @@
 
 #orange-trophy-icon {
     position: absolute;
-    display: none; /* DON'T FORGET TO DELETE! */
+    height: 56px;
+    right: 16px;
+    top: -4px;
 }
