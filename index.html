@@ -94,38 +94,46 @@
             <div class="promo" id="graphing-calc-container">
                 <h1>Let's learn together.</h1>
                 <h2>At Desmos Studio, we want to help everyone learn math, love math, and grow with math.</h2>
-                <a class="promo-btn" id="graph-calc-btn" href="#">Graphing Calculator</a>
+                <a class="promo-btn btn" id="graph-calc-btn" href="#">Graphing Calculator</a>
             </div>
             <div class="other-promo">
                 <div class="promo" id="explore-geo-container">
                     <h1>Explore geometry.</h1>
                     <h2>Try our new geometry tool, now with the power of the graphing calculator built in.</h2>
-                    <a class="promo-btn" id="geo-btn" href="#">Open Geometry</a>
+                    <a class="promo-btn btn" id="geo-btn" href="#">Open Geometry</a>
                 </div>
 
                 <div class="promo" id="global-art-contest-container">
                     <img src="./assets/winner-flag_orange.png" alt="orange flag with trophy icon" id="orange-trophy-icon">
                     <h1>Global Art Contest</h1>
                     <h2>Visit the 2023 Art Contest gallery, featuring 100 incredible graphs from around the world.</h2>
-                    <a class="promo-btn" id="gallery-btn" href="#">Open the gallery</a>
+                    <a class="promo-btn btn" id="gallery-btn" href="#">Open the gallery</a>
                 </div>
             </div>
         </section>
 
         <section class="desmos-classroom">
-            <h1>Looking for Desmos Classroom?</h1>
-            <h2>Desmos Classroom is a free teaching and learning platform, <a href="#">now part of Amplify.</a></h2>
+            <div class="section-title">
+                <h1>Looking for Desmos Classroom?</h1>
+                <h2>Desmos Classroom is a free teaching and learning platform, <a href="#">now part of Amplify.</a></h2>
+            </div>
             <div class="classroom-container">
-                <div class="teachers">
-                    <h1>Teachers</h1>
-                    <h2>Find interactive and creative lessons for your class, or build your own.</h2>
-                    <a href="#" id="teacher-dash-btn">Teacher Home</a>
+                <div class="classroom-container__item" id="teachers">
+                    <div class="cc__info">
+                        <h1>Teachers</h1>
+                        <h2>Find interactive and creative lessons for your class, or build your own.</h2>
+                        <a href="#" class="btn" id="teacher-dash-btn">Teacher Home</a>
+                    </div>
+                    <img src="./assets/desmos-classroom-teacher-bg.png" alt="Desmos classroom for teachers">
                 </div>
                 
-                <div class="students">
-                    <h1>Students</h1>
-                    <h2>Enter a classcode to join your classmates!</h2>
-                    <a href="#" id="student-dash-btn">Student Home</a>
+                <div class="classroom-container__item" id="students">
+                    <div class="cc__info">
+                        <h1>Students</h1>
+                        <h2>Enter a classcode to join your classmates!</h2>
+                        <a href="#" class="btn" id="student-dash-btn">Student Home</a>
+                    </div>
+                    <img src="./assets/desmos-classroom-student-bg.png" alt="Desmos classroom for students">
                 </div>
             </div>
         </section>
