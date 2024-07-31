@@ -41,6 +41,10 @@
     text-decoration: underline;
 }
 
+.footer-menu ul li a:visited {
+    color: rgb(47, 114, 220);
+}
+
 .footer-bar {
     background-color: #333;
     color: white;
