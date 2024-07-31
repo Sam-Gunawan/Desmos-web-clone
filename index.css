@@ -6,6 +6,22 @@
     text-align: center;
 }
 
+.section-title h1 {
+    margin-bottom: 10px;
+}
+
+.section-title h2 {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 50ms;
+}
+
 #page-intro {
     display: flex;
     flex-direction: row;
@@ -14,15 +30,6 @@
 #page-intro img {
     width: 350px;
     margin: auto;
-}
-
-#page-intro h1 {
-    margin-bottom: 10px;
-}
-
-#page-intro h2 {
-    font-size: 20px;
-    margin-top: 0;
 }
 
 #featured-apps {
@@ -51,12 +58,7 @@
 .promo-btn {
     position: absolute;
     bottom: 30px;
-    /* background-color: blue; */
-    text-decoration: none;
     color: white !important;
-    padding: 10px 20px;
-    border-radius: 5px;
-    transition: 200ms;
 }
 
 .other-promo .promo {
@@ -74,6 +76,7 @@
 
 .other-promo .promo-btn:hover {
     opacity: 1;
+    box-shadow: 0 0 0 1px white;
 }
 
 .other-promo h1 {
@@ -122,4 +125,58 @@
     height: 56px;
     right: 16px;
     top: -4px;
+}
+
+.classroom-container {
+    width: 960px;
+    display: flex;
+    margin: auto;
+    gap: 12px;
+    color: #444;
+}
+
+.classroom-container>div {
+    flex: 1;
+}
+
+.classroom-container__item {
+    border: 1px solid gray;
+    padding: 0 20px 50px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    position: relative;
+    overflow: hidden;
+}
+
+.cc__info {
+    width: 60%;
+}
+
+.classroom-container__item img {
+    position: absolute;
+    right: 0px;
+}
+
+.classroom-container__item h1 {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.classroom-container__item h2 {
+    font-size: 16px;
+}
+
+.classroom-container__item .btn {
+    color: #656565 !important;
+    position: absolute;
+    bottom: 15px;
+    border: 1px solid gray;
+}
+
+.classroom-container__item .btn:hover {
+    box-shadow: 0 0 0 1px #444;
+    border-color: #444;
+    color: #444 !important;
 }
