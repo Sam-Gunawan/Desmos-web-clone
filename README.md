@@ -12,6 +12,29 @@ Key features and goals:
 - Exploration of advanced CSS techniques (flexbox, grid, pseudo-classes, pseudo-elements)
 - Foundation for future integration of JavaScript for interactive graphing
 
-I'm focusing on nailing the design first, using HTML structure and CSS styling to mimic Desmos' iconic look. Once the foundation is solid, I plan to add JavaScript for the interactive graphing part.
+I'm focusing on nailing the design first, using HTML structure and CSS styling to mimic Desmos' iconic look. Once the foundation is solid, I plan to add JavaScript for dynamic features.
 
-__This project is a work in progress, and I'm open to feedback and suggestions. It's a great way to learn and grow as a developer. This project is not affiliated with Desmos Studio PBC and is solely for educational and practice purposes.__
+> [!IMPORTANT]
+> This project is a work in progress, and I'm open to feedback and suggestions. It's a great way to learn and grow as a developer. This project is not affiliated with Desmos Studio PBC and is solely for educational and practice purposes.
+
+# Personal Documentation 
+## Cloned Pages
+1. [Landing page](https://www.desmos.com/)
+2. [Careers page](https://www.desmos.com/careers)
+
+## Changes I Made
+### Landing page
+- Positioned the navbar dropdown to the center with respect to the dropdown logo.
+- Positioned the drodpown content to be aligned with the left side of their respective menus.
+- Didn't add the background images for their featured apps containers (graphing calc, geometry, global art contest).
+- Added hover effects for the galleries (2023 global math art contest & example 3d graphs).
+- Used a colored desmos logo instead due to personal preference.
+### Careers page
+- None
+  
+## Notes
+_As of August 1 2024..._
+1. The website is **completely static**. It is built only on HTML and CSS.
+2. At this time, I have yet learned how to use JS with HTML and CSS, so no dynamic features yet (e.g. a login page overlay)!
+3. Feel free to use this for your own learning experience (or criticize it to hell 🤗).
+
