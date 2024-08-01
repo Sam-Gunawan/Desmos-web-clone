@@ -1,3 +1,7 @@
+p {
+    line-height: 1.5em;
+}
+
 .container .careers-header {
     margin-top: 0;
     height: 375px;
@@ -54,4 +58,35 @@
     height: 1px;
     width: 30%;
     background-color: rgba(0, 0, 0, 0.384);
+}
+
+.container .information {
+    width: 950px;
+    margin: auto;
+    color: #444;
+}
+
+.information__title h2 {
+    font-size: 32px;
+    margin-bottom: 0;
+}
+
+.the-perks .information__body p {
+    color: #666;
+}
+
+.the-perks .points .point h3 {
+    margin-bottom: 0;
+}
+
+.the-perks .points .point p {
+    margin-top: 0;
+}
+
+.bottom-gap {
+    margin-bottom: 4em;
+}
+
+footer {
+    background-color: #eff2f3;
 }
