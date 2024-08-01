@@ -36,5 +36,6 @@ I'm focusing on nailing the design first, using HTML structure and CSS styling t
 _As of August 1 2024..._
 1. The website is **completely static**. It is built only on HTML and CSS.
 2. At this time, I have yet learned how to use JS with HTML and CSS, so no dynamic features yet (e.g. a login page overlay)!
-3. Feel free to use this for your own learning experience (or criticize it to hell 🤗).
+3. The website is **not responsive**, looking forward to learning responsive web design though.
+4. Feel free to use this for your own learning experience (or criticize it to hell 🤗).
 
