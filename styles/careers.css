@@ -1,0 +1,57 @@
+.container .careers-header {
+    margin-top: 0;
+    height: 375px;
+    background: white url(../assets/team_collage.jpg) center repeat-x;
+    background-size: auto 375px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.careers-intro {
+    width: 750px;
+    padding: 50px;
+    padding-bottom: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 1px #444;
+}
+
+.careers-intro h1 {
+    font-size: 2.1em;
+    text-align: center;
+    margin: 0;
+}
+
+.careers-intro p {
+    color: #666;
+    line-height: 1.25em;
+}
+
+.open-positions-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 0;
+}
+
+.open-positions-btn a {
+    text-decoration: none;
+    color: #666 !important;
+    padding: 10px 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.open-positions-btn a:hover {
+    box-shadow: 0 0 1px inset black;
+    color: #444!important;
+}
+
+.hr-line {
+    display: inline-block;
+    height: 1px;
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0.384);
+}
