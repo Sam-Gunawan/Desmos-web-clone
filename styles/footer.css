@@ -3,11 +3,16 @@
     justify-content: space-between;
     width: 960px;
     margin: auto;
-    margin-bottom: 1em;
+    padding: 1.5em 0;
 }
 
 .main-footer img {
     width: 145px;
+}
+
+.main-footer > a {
+    display: flex;
+    align-items: center;
 }
 
 .footer-menu {
