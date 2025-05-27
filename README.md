@@ -4,6 +4,9 @@ This repo is a personal challenge to build a stripped-down version of the Desmos
 
 While this project focuses on HTML and CSS, it also serves as a precursor to integrating more complex JavaScript functionalities for interactive graphing capabilities. This repository is intended as a living document, evolving as the developer's skills progress. It is open to feedback and contributions, fostering a collaborative learning environment.
 
+> [!TIP]
+> View it live [here](https://sam-gunawan.github.io/Desmos-web-clone/)!
+
 Key features and goals:
 
 - Accurate replication of Desmos' user interface elements
