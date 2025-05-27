@@ -18,7 +18,7 @@ I'm focusing on nailing the design first, using HTML structure and CSS styling t
 > This project is a work in progress, and I'm open to feedback and suggestions. It's a great way to learn and grow as a developer. This project is not affiliated with Desmos Studio PBC and is solely for educational and practice purposes.
 
 # Personal Documentation 
-## Cloned Pages
+## Revamped Pages
 1. [Landing page](https://www.desmos.com/)
 2. [Careers page](https://www.desmos.com/careers)
 
@@ -35,7 +35,10 @@ I'm focusing on nailing the design first, using HTML structure and CSS styling t
 ## Notes
 _As of August 1 2024..._
 1. The website is **completely static**. It is built only on HTML and CSS.
-2. At this time, I have yet learned how to use JS with HTML and CSS, so no dynamic features yet (e.g. a login page overlay)!
+2. At this time, I have yet learned how to use JS with HTML and CSS, so no dynamic features yet (e.g. a login page overlay).
 3. The website is **not responsive**, looking forward to learning responsive web design though.
 4. Feel free to use this for your own learning experience (or criticize it to hell 🤗).
+
+
+_© 2024 Samuel Theodore Gunawan. All rights reserved._
 
